@@ -1,0 +1,11 @@
+# /etc/inputrc - global inputrc for libreadline
+# See readline(3readline) and `info rluserman' for more information.
+
+# Be 8 bit clean.
+set input-meta on
+set output-meta on
+
+# Mapping to search the history
+"\ep": history-search-backward
+"\eo": history-search-backward
+"\en": history-search-forward
